@@ -1,0 +1,16 @@
+{
+	"id": "cd9cc89e-03be-4f01-ab66-cb918b29a75c",
+	"name": "prog.redes",
+	"values": [
+		{
+			"key": "host",
+			"value": "http://localhost:49862/",
+			"type": "text",
+			"description": "",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2018-11-14T02:39:20.590Z",
+	"_postman_exported_using": "Postman/6.5.2"
+}

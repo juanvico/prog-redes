@@ -1,0 +1,194 @@
+{
+	"info": {
+		"_postman_id": "2414fcaf-9ea3-40a1-89bb-c09bd7f0592b",
+		"name": "prog.redes OBL 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add player",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nickname\":\"seba\",\n\t\"avatar\":\"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\"\n}"
+				},
+				"url": {
+					"raw": "{{host}}api/players",
+					"host": [
+						"{{host}}api"
+					],
+					"path": [
+						"players"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get  player",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}api/players/56ec3514-cfe7-4c6b-97f1-5cfe94913d2e",
+					"host": [
+						"{{host}}api"
+					],
+					"path": [
+						"players",
+						"56ec3514-cfe7-4c6b-97f1-5cfe94913d2e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all players",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}api/players",
+					"host": [
+						"{{host}}api"
+					],
+					"path": [
+						"players"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update player",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Nickname\":\"seba\",\n\t\"Avatar\": \"2.jpg\"\n}"
+				},
+				"url": {
+					"raw": "{{host}}api/players/946a5492-5c07-4113-8306-599b19d6d0ef",
+					"host": [
+						"{{host}}api"
+					],
+					"path": [
+						"players",
+						"946a5492-5c07-4113-8306-599b19d6d0ef"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete player",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}api/players/de4f3bea-6edf-4674-9f8d-173a9fd50313",
+					"host": [
+						"{{host}}api"
+					],
+					"path": [
+						"players",
+						"de4f3bea-6edf-4674-9f8d-173a9fd50313"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get logs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}api/logs",
+					"host": [
+						"{{host}}api"
+					],
+					"path": [
+						"logs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Ranking",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}api/rankings",
+					"host": [
+						"{{host}}api"
+					],
+					"path": [
+						"rankings"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{host}}api/stats",
+					"host": [
+						"{{host}}api"
+					],
+					"path": [
+						"stats"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
